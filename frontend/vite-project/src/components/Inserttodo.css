@@ -1,0 +1,77 @@
+/* Overall styling for the application */
+.insApp {
+    font-family: Arial, sans-serif; /* Use a clean and readable font */
+    margin: 0 auto; /* Center the app horizontally within the viewport */
+    width: 500px; /* Set a fixed width for better responsiveness */
+    padding: 20px; /* Add some padding for visual appeal */
+    border: 1px solid #ddd; /* Create a subtle border for the app */
+    border-radius: 5px; /* Add subtle rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a faint shadow for depth */
+  }
+  
+  /* Styling for the heading */
+  h1 {
+    text-align: center; /* Center the heading text */
+    font-size: 24px; /* Increase the heading size for emphasis */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+  /* Styling for the form */
+  form {
+    display: flex; /* Arrange form elements horizontally */
+    align-items: center; /* Vertically align the input and button */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+  form input[type="text"] {
+    flex: 1; /* Allow the input field to grow to fill remaining space */
+    padding: 10px; /* Add some padding for improved input experience */
+    border: 1px solid #ccc; /* Create a thin border around the input */
+    border-radius: 3px; /* Add rounded corners for a smoother look */
+    margin-right: 10px; /* Add some right margin for spacing */
+  }
+  
+  form button[type="submit"] {
+    padding: 10px 20px; /* Adjust padding for a balanced button size */
+    background-color: #007bff; /* Set a primary blue color for the button */
+    color: #fff; /* Use white text for contrast */
+    border: none; /* Remove the default button border */
+    border-radius: 3px; /* Add rounded corners for consistency */
+    cursor: pointer; /* Indicate that the button is clickable */
+  }
+  
+  /* Styling for the list */
+  .list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .list li {
+    display: flex; /* Arrange list items horizontally */
+    align-items: center; /* Vertically align the checkbox, text, and button */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+  }
+  
+  /* Styling for checkboxes */
+  .list li input[type="checkbox"] {
+    margin-right: 10px; /* Add some right margin for spacing */
+  }
+  
+  /* Styling for completed tasks (strikethrough) */
+  .list li span.completed {
+    text-decoration: line-through; /* Apply line-through for completed tasks */
+    color: #ccc; /* Make completed tasks slightly grayed out */
+  }
+  
+  /* Styling for delete buttons */
+  .list li button {
+    margin-left: auto; /* Move the button to the right side */
+    padding: 5px 10px; /* Adjust padding for a smaller button size */
+    background-color: #dc3545; /* Set a red color for the delete button */
+    color: #fff; /* Use white text for contrast */
+    border: none; /* Remove the default button border */
+    border-radius: 3px; /* Add rounded corners for consistency */
+    cursor: pointer; /* Indicate that the button is clickable */
+  }
+  
